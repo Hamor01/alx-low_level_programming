@@ -4,7 +4,8 @@
  * _strncat - concatenates two strings
  * Author: Hamor
  * Using atmost n bytes from src
- * @dset: input value
+ * @dest: input value
+ * @src: input value
  * @n: input value
  *
  * Return: dest
@@ -28,4 +29,4 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	dest[i] = '\0';
 	return (dest);
-}
+i}
